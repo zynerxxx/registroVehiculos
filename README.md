@@ -26,27 +26,29 @@
 
 ---
 
-## Stack Tecnológico
+## Stack Tecnológico & Librerías
 
 - **HTML5** — Estructura semántica
 - **CSS3** — Estilos personalizados
-- **JavaScript Vanilla** — Lógica de la aplicación
-- **Bootstrap 5** (CDN) — Framework de diseño responsivo
+- **JavaScript Vanilla** — Lógica core de la aplicación y Web Workers
+- **Bootstrap 5** (CDN) — Framework principal de diseño responsivo
+- **SweetAlert2** (CDN) — Alertas interactivas y manejo de errores visuales
+- **Chart.js** (CDN) — Renderizado de gráficos para el Dashboard Analítico
+- **Bootstrap Icons** (CDN) — Iconografía moderna para la UI
+- **Animate.css** (CDN) — Transiciones y animaciones fluidas del DOM
 
 ---
 
 ## Estructura del Proyecto
 
-```
-Proyecto - DTW 2026/
-├── index.html          # Punto de entrada de la aplicación
-├── css/
-│   └── styles.css      # Estilos personalizados
-├── js/
-│   ├── app.js          # Lógica principal de la aplicación
-│   └── worker.js       # Web Worker para métricas en segundo plano
-└── README.md           # Documentación del proyecto
-```
+    Proyecto - DTW 2026/
+    ├── index.html          # Punto de entrada de la aplicación
+    ├── css/
+    │   └── styles.css      # Estilos personalizados
+    ├── js/
+    │   ├── app.js          # Lógica principal de la aplicación
+    │   └── worker.js       # Web Worker para métricas en segundo plano
+    └── README.md           # Documentación del proyecto
 
 ---
 
@@ -54,8 +56,7 @@ Proyecto - DTW 2026/
 
 > Este proyecto es una aplicación web estática. No requiere instalación de dependencias ni servidor de compilación.
 
-1. Clonar el repositorio:
-   ```bash
-   git clone <url-del-repositorio>
-   ```
+1. Clonar el repositorio ejecutando el siguiente comando en la terminal:
+    `git clone https://github.com/zynerxxx/registroVehiculos.git`
+
 2. Abrir el archivo `index.html` directamente en un navegador, o utilizar una extensión como **Live Server** (VS Code) para servirlo localmente.
