@@ -1,0 +1,22 @@
+/*
+ * =============================================================================
+ * Proyecto: Registro de Vehículos
+ * Materia:  DTW135 - Desarrollo y Técnicas de Aplicaciones Web
+ *           Ciclo 1 - 2026
+ * Archivo:  css/styles.css
+ * Desc.:    Estilos personalizados de la aplicación.
+ *           Bootstrap 5 se carga vía CDN como base del diseño.
+ * =============================================================================
+ */
+
+
+/* -----------------------------------------------------------------------------
+ * Reset básico
+ * -------------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
